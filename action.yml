@@ -1,0 +1,6 @@
+name: 'FoxCraft Actions Setup'
+description: 'Prepares environment variables required by other steps in the build process.'
+author: 'Noah van der Aa'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

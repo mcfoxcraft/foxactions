@@ -1,0 +1,26 @@
+{
+  "name": "foxactions",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcfoxcraft/foxactions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mcfoxcraft/foxactions/issues"
+  },
+  "homepage": "https://github.com/mcfoxcraft/foxactions#readme",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.9.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
